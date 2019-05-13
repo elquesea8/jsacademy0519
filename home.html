@@ -2,29 +2,89 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Discovering The World.css"/>
+    <title>Discovering The World</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina para leer publicaciones">
+    
 </head>
 
 <body>
+    <div id= "header">
+    <p id="Easier">[Making your Life Easier]</p>
+    <h1>Discovering the World</h1>
+</div>
     <div id="add">
-        <span>[Making your Life Easier]</span>
-        <span>Discovering the World</span>
+     <div button Add post ></div>
+        <input list="Filers"/>
+          <select>
+              <option value="Travel">Travel</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Business">Business</option>
+              <option value="Food">Food</option>
+              <option value="Work">Work</option>
+          </select>
     </div>
-    <div id="add">
-        <button></button>
+    <div class="btn-group" id="filters">
+        <button class="filters1">All</button>
+        <button class="filters">Travel</button>
+        <button class="filters">Lifestyle</button>
+        <button class="filters">Business</button>
+        <button class="filters">Food</button>
+        <button class="filters2">Work</button>
+      </div>
     </div>
-    <div id="filters">
-        <button></button>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-6" id="post1" >
+      <div class="grid.item">   
+        <a href="#">
+        <h3 id="post1">The waves are high & beautiful</h3></a>
+        <p id="post1"><i>3 comments <i class="far fa-cmments"></i></i></p>
+        <p id="post1">comentarios de prueba</p>
+        <p id="post1"><b>Travel</b></p>
+      <div class="button-container">
+        <button type="submit" title="Edit" class="fa fa-edit fa-lg">Edit</button>
+        <button type="submit" title="Delete" class="fa fa-thash fa-lg">Submit</button>
     </div>
-    <div id="posts"></div>
+    </div>
+  </div>
+      <div class="col-lg-6" id="post2"> 
+      <div class="grid.item" >
+        <a href="#">
+        <h3>At the beach in the winter</h3></a>
+        <p id="post2"><i>3 comments <i class="far fa-cmments"></i></i></p>
+        <p id="post2"> comentarios de prueba</p>
+        <p id="post2"><b>Lifestyle</b></p>
+      <div class="button-container">
+        <button type="submit" title="Edit" class="fa fa-edit fa-lg">Edit</button>
+        <button type="submit" title="Delete" class="fa fa-thash fa-lg">Submit</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
     <div id="add_form">
-        <label>Title</label>
-        <label>Description</label>
-        <label>Type</label>
+      <form id="form">
+        <h4>Create post</h4>
+        <label for="form">Title</label><input type="text" id="title" name="title">
+        <label for="form">Description</label><input type="text" id="description" name="description">
+        <label for="form">Category</label>
         <select>
-            <option value="LIFESTYLE">LIFESTYLE</option>
-            <option value="TRAVEL">TRAVEL</option>
+            <option value="LIFESTYLE" required>LIFESTYLE</option>
+            <option value="TRAVEL" required>TRAVEL</option>
         </select>
-        <label>Date</label>
+        <label for="urlImage">URL of the image<input type="url" name="url" required/>
+        <label>Date</label><input type="month"required>
+        <button>Cancel</button>
+        <button type="submit" form=value ="Submit">Save</button>
+
+      </form>
     </div>
 </body>
 

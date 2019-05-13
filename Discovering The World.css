@@ -1,0 +1,103 @@
+p#Easier {
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+h1 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+div#post1{
+    background-image: url("https://c7.alamy.com/comp/M9D4TJ/pink-sand-bahamian-beach-on-low-tide-featuring-beach-with-fluffy-pink-sand-clear-turquoise-green-water-on-a-sunny-day-with-high-contrast-sky-M9D4TJ.jpg");
+}
+
+div#post2{
+    background-image: url("https://www.discoverlosangeles.com/sites/default/files/styles/hero/public/images/2019-01/Hermosa%20Beach%20Pier%20sunset.jpg?h=7a740ff7&itok=9x82CPJg");
+}
+
+div#filters{
+    text-align: center;
+}
+
+button.filters{
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.5px;
+  color: black;
+  padding: 16px 32px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button.filters1{
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button.filters2{
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button.filters:hover {
+    background-color: #cdd1cd;
+  color: black;
+}
+
+button.filters:focus {
+  background: rgb(199, 191, 191);
+  outline: 0;
+}
+
+button#submit{
+  
+}
+
+a {
+    color: white;
+  }
+
+  p#post1{
+    color: white;
+
+  }
+
+  p#post2{
+    color: white; 
+  }
+
+
+
+
+  
